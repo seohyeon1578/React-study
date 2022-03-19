@@ -87,7 +87,7 @@ yarn webpack
 const babel = require('@babel/core');
 const fs = require('fs');
 
-const filename = '.js';
+const filename = '파일위치.js';
 const source = fs.readFileSync(filename, 'utf8');
 const presets = ['@babel/preset-react'];
 const plugins = [
